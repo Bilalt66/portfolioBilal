@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bilal — Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Mijn Portfolio</div>
+
+      <nav class="menu" id="menu" aria-hidden="true">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Hello, I am Bilal</h1>
+      <p>I am a beginning Software Development student.</p>
+    </main>
+
+    <main>
+      <section
+        id="about"
+        style="height: 100vh; padding: 50px; background: #ffffff"
+      >
+        <h2>About Me</h2>
+        <p>
+          Hello! My name is Bilal and I am currently studying Software
+          Development. I enjoy creating websites, learning new programming
+          skills.
+        </p>
+
+        <p>
+          Besides coding, I also have editing skills. I create engaging content
+          for social media, including TikTok, where I have experience reaching a
+          large audience. This has helped me develop creativity, attention to
+          detail, and an eye for design.
+        </p>
+
+        <p>
+          My goal is to combine my programming and creative skills to build
+          interactive and visually appealing projects. In my free time, I enjoy
+          learning new tools, experimenting with designs, and improving my
+          coding skills.
+        </p>
+      </section>
+
+      <section
+        id="skills"
+        style="height: 100vh; padding: 50px; background: #ffffff"
+      >
+        <h2>Skills</h2>
+
+        <div class="skill">
+          <span class="skill-name">HTML</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 50%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span class="skill-name">CSS</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 50%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span class="skill-name">JavaScript</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 25%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span class="skill-name">Editing</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 60%"></div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="projects"
+        style="height: 100vh; padding: 50px; background: #ffffff"
+      >
+        <h2>projects</h2>
+        <p>projecten</p>
+      </section>
+
+      <section
+        id="contact"
+        style="min-height: 100vh; padding: 50px; background: #ffffff"
+      >
+        <h2>Contact</h2>
+
+        <form
+          action="https://formspree.io/f/xanvgrno"
+          method="POST"
+          class="contact-form"
+          style="max-width: 700px; margin-top: 20px"
+        >
+          <label for="name">Name</label><br />
+          <input
+            id="name"
+            name="name"
+            type="text"
+            required
+            style="width: 100%; padding: 8px; margin: 6px 0"
+          />
+
+          <label for="email">E-mail</label><br />
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            style="width: 100%; padding: 8px; margin: 6px 0"
+          />
+          <label for="email">Phone number</label><br />
+          <input
+            id="phone-number"
+            name="phone-number"
+            type="phone-number"
+            required
+            style="width: 100%; padding: 8px; margin: 6px 0"
+          />
+
+          <label for="message">Message</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            required
+            style="width: 100%; padding: 8px; margin: 6px 0"
+          ></textarea>
+
+          <button
+            type="submit"
+            style="padding: 10px 16px; margin-top: 8px; cursor: pointer"
+          >
+            Send
+          </button>
+        </form>
+
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
